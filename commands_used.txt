@@ -1,0 +1,28 @@
+    1  sudo apt install
+    2  sudo apt update
+    3  sudo apt upgarde
+    4  sudo apt upgrade
+    5  sudo apt autoremove-y
+    6  apt autoremove -y
+    7  sudo reboot
+    8  cat /etc/os-release
+    9  sudo shutdown
+   10  shutdown -c
+   11  shutdown
+   12  df -h
+   13  free -h
+   14  uptime
+   15  ^M
+   16  uname -a
+   17  mkdir -p ~/Week2-Internship/{PM4-theHarvester,PM5-Zenmap,Report,Screenshots}
+   18  nmap google.com
+   19  clear
+   20  sudo apt update && sudo apt install ufw -y\nsudo ufw status verbose
+   21  ping
+   22  ping 4 google.com
+   23  ping google.com
+   24  ping 8.8.8.8\n
+   25  sudo apt update && sudo apt install ufw -y\nsudo ufw status verbose
+   26  sudo ufw default deny incoming\nsudo ufw default allow outgoing\nsudo ufw allow 22/tcp\nsudo ufw enable\nsudo ufw status numbered
+   27  sudo nc -lvnp 23
+   28  sudo ufw status numbered\nsudo ufw delete deny 23/tcp\nsudo ufw status numbered
